@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Frood
+    </ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addEvent()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <button ion-item *ngFor="let data of details | async" (click)="navigate(data.item, data.location)">
+          <p>Food Item: {{data.item}}</p>
+          <p>Location: {{data.location}}</p>
+        </button>
+    </ion-list>
+</ion-content>
+

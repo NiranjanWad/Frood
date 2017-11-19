@@ -1,0 +1,19 @@
+{ "EventDetails": [
+  {
+  "item": "Pizza",
+  "location": "163 William Street"
+  },
+  {
+    "item": "Salad",
+    "location": "One Pace Plaza"
+  },
+  {
+    "item": "Burgers",
+    "location": "41 Park Row"
+  },
+  {
+    "item": "Pizza",
+    "location": "163 William Street"
+  }
+]
+}
